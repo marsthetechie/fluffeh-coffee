@@ -73,3 +73,52 @@ nav ul li a:hover {
 p, h1 {
   font-family: 'Comfortaa', cursive;
 }
+
+footer {
+  background-color: #6F3D27;
+  display: flex;
+  padding: 5%;
+}
+
+#info {
+  flex-grow: 1;
+}
+
+#social {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#year {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.button {
+  border: none;
+  margin-top: 3%;
+  padding: 1%;
+  font-family: 'Comfortaa', cursive;
+  border-radius: 10px;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  background-color: #F2CF66;
+  border-bottom: 5px solid #D1B358;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.fa-heart {
+  color: #800000;
+}
