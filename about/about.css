@@ -10,6 +10,10 @@ p::selection {
   background: #93663e;
 }
 
+h1::selection {
+  background: #93663e;
+}
+
 header {
   background-color: #6F3D27;
   display: flex;
@@ -70,7 +74,8 @@ nav ul li a:hover {
   background-color: #A0522D;
 }
 
-p, h1 {
+p,
+h1 {
   font-family: 'Comfortaa', cursive;
 }
 
@@ -121,4 +126,14 @@ footer {
 
 .fa-heart {
   color: #800000;
+}
+
+article {
+  text-align: justify;
+  padding: 10% 20% 10% 20%;
+}
+
+#team {
+  color: burlywood; 
+  font-style: italic;
 }
