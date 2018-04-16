@@ -128,12 +128,29 @@ footer {
   color: #800000;
 }
 
+
+#container {
+  display: flex;
+}
+
 article {
   text-align: justify;
-  padding: 10% 20% 10% 20%;
+  padding: 10% 5%;
 }
 
 #team {
-  color: burlywood; 
+  color: burlywood;
   font-style: italic;
+  float: right;
+}
+
+
+#kafaCont {
+  height: inherit;
+  align-self: flex-end;
+}
+
+#kafica {
+  height: 400px;
+  width: 250px;
 }
