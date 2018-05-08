@@ -62,6 +62,68 @@ nav ul li a:before {
   transition: all 0.5s;
 }
 
+form {
+  max-width: 500px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form fieldset {
+  border: none;
+}
+
+form legend {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-family: 'Comfortaa', cursive;
+}
+
+form input[type="email"],
+form input[type="text"],
+form textarea {
+  font-family: 'Comfortaa', cursive;
+  background: rgba(194, 96, 96, 0.1);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 0;
+  outline: 0;
+  padding: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-color: #e8eeef;
+  color:#000000;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+form input[type="email"]:hover,
+form input[type="email"]:focus,
+form input[type="text"]:hover,
+form input[type="text"]:focus,
+form textarea:hover,
+form textarea:focus {
+  background-color: #fff;
+}
+
+form input[type="submit"] {
+  position: relative;
+  display: block;
+  padding: 19px 39px 18px 39px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+}
+
 #contact a {
   background-color: #A0522D;
 }
