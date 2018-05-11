@@ -45,12 +45,23 @@ header {
 .move-area {
   padding: 10% 45%;
 }
+
+.cup {
+  position: absolute;
+  right: 43%;
+  bottom: 90px;
+  height: 250px;
+  width: 200px;
+}
+
 .container {
   width: 50%;
 }
 .eye {
   position: relative;
+  right: 250px;
   display: inline-block;
+  border: 3px solid rgb(77, 39, 14);
   border-radius: 50%;
   height: 30px;
   width: 30px;
