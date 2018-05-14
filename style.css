@@ -39,11 +39,19 @@ header {
 }
 
 #animation {
-  flex-grow: 1;
+  flex-grow: 2;
 }
 
 .move-area {
-  padding: 10% 45%;
+  padding: 5% 35%;
+  flex-grow: 1;
+}
+
+.social {
+  flex-grow: 1;
+  margin-top: 80px;
+  font-family: 'Comfortaa', cursive;
+  color: #fff;
 }
 
 .cup {
@@ -59,13 +67,14 @@ header {
 }
 .eye {
   position: relative;
-  right: 250px;
+  right: 36px;
+  top: 68px;
   display: inline-block;
   border: 3px solid rgb(77, 39, 14);
   border-radius: 50%;
   height: 30px;
   width: 30px;
-  background: #CCC;
+  background: #ccc;
 }
 .eye:after { /*pupil*/
   position: absolute;
