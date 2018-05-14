@@ -49,6 +49,10 @@ header {
 
 .social {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 50px;
   margin-top: 80px;
   font-family: 'Comfortaa', cursive;
   color: #fff;
