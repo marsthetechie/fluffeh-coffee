@@ -67,7 +67,7 @@ header {
 }
 .eye {
   position: relative;
-  right: 36px;
+  right: 32px;
   top: 68px;
   display: inline-block;
   border: 3px solid rgb(77, 39, 14);
