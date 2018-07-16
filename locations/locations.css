@@ -74,6 +74,11 @@ p, h1 {
   font-family: 'Comfortaa', cursive;
 }
 
+.lok {
+  text-align: center;
+  padding: 10%;
+}
+
 footer {
   background-color: #6F3D27;
   display: flex;
