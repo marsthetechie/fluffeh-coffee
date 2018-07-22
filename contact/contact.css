@@ -151,6 +151,10 @@ footer {
   text-align: center;
 }
 
+#social a {
+  display: inline-block;
+}
+
 #year {
   flex-grow: 1;
   text-align: right;
