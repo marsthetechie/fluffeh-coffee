@@ -218,7 +218,7 @@ footer {
   transform: translate(-50%, -50%);
   background-color: #93663e;
   color: #fff;
-  padding: 10px 20px 10px; 20px;
+  padding: 10px 20px 10px 20px;
   text-align:justify;
   width: 24rem;
   border-radius: 0.5rem;
