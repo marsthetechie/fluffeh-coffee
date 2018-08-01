@@ -26,11 +26,7 @@
     
   </header>
 
-  <article>
-    <section class="lok">
-      <h1>Where to find us?</h1>
-    </section>
-  </article>
+    <div id="map"></div>
   
   <footer>
     <section id="info">
@@ -53,6 +49,23 @@
     </section>
 
   </footer>
-  
+  <script>
+      var map;
+      var cords = {lat: 44.802, lng: 20.465};
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: cords,
+          zoom: 8
+        });
+
+        var marker = new google.maps.Marker({
+          position: cords,
+          map: map,
+          title: 'Fluffeh Coffee'
+        });
+      }
+     </script>
+     <script src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEY&callback=initMap"
+     async defer></script>
   </body>
 </html>

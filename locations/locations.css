@@ -79,6 +79,10 @@ p, h1 {
   padding: 10%;
 }
 
+#map {
+  height: 500px;
+}
+
 footer {
   background-color: #6F3D27;
   display: flex;
