@@ -93,6 +93,20 @@ header {
   content: " ";
 }
 
+@media (max-width: 900px) {
+  #container {
+    flex-direction: column;
+  }
+
+  #animation {
+    visibility: hidden;
+  }
+
+  .social {
+    margin: auto;
+  }
+}
+
 #text {
   font-family: 'Comfortaa', cursive;
   color: #fff;
