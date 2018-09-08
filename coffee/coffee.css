@@ -11,20 +11,14 @@ p::selection {
 }
 
 header {
+  padding: 0.1em;
   background-color: #6F3D27;
-  display: flex;
-  align-items: center;
   border-bottom: 1px solid #000;
 }
 
-#logocont {
-  flex-grow: 1;
-  margin-left: 2%;
-  height: 150px;
-}
-
 #logo {
-  margin: 4%;
+  position: absolute;
+  margin: 2%;
   width: 100px;
   height: 100px;
   -o-box-shadow: 8px 8px 25px #000;
@@ -36,19 +30,15 @@ header {
   border-radius: 5%;
 }
 
-nav {
-  width: 70%;
-  height: 100%;
-}
-
 nav ul {
-  height: 100%;
-  display: flex;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
-nav ul li a {
-  padding: 27px 60px 27px 60px;
+nav ul a {
+  padding: 1.2%;
   font-family: 'Comfortaa', cursive;
   text-decoration: none;
   text-transform: lowercase;
@@ -56,18 +46,28 @@ nav ul li a {
   font-weight: bold;
 }
 
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
+nav ul a,
+nav ul a:after,
+nav ul a:before {
   transition: all 0.5s;
 }
 
-#coffee a {
+nav ul a#coffee {
   background-color: #A0522D;
 }
 
-nav ul li a:hover {
+nav ul a:hover {
   background-color: #A0522D;
+}
+
+@media (max-width: 600px) {
+  header {
+    display: flex;
+  }
+
+  #logo {
+    position: static;
+  }
 }
 
 p, h1 {

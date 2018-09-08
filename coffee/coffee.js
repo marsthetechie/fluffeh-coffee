@@ -1,29 +1,29 @@
-//black coffee
+// Black coffee
 var modalBlack = document.querySelector(".modalBlack");
 var triggerBlack = document.querySelector(".triggerBlack");
 var closeBlack = document.querySelector("#closeBlack");
 
-//espresso
+// Espresso
 var modalEspresso = document.querySelector(".modalEspresso");
 var triggerEspresso = document.querySelector(".triggerEspresso");
 var closeEspresso = document.querySelector("#closeEspresso");
 
-//double espresso
+// Double espresso
 var modalDouble = document.querySelector(".modalDouble");
 var triggerDouble = document.querySelector(".triggerDouble");
 var closeDouble = document.querySelector("#closeDouble");
 
-//cappuccino
+// Cappuccino
 var modalCapp = document.querySelector(".modalCapp");
 var triggerCapp = document.querySelector(".triggerCapp");
 var closeCapp = document.querySelector("#closeCapp");
 
-//latte
+// Latte
 var modalLatte = document.querySelector(".modalLatte");
 var triggerLatte = document.querySelector(".triggerLatte");
 var closeLatte = document.querySelector("#closeLatte");
 
-//mocha
+// Mocha
 var modalMocha = document.querySelector(".modalMocha");
 var triggerMocha = document.querySelector(".triggerMocha");
 var closeMocha = document.querySelector("#closeMocha");
@@ -49,26 +49,26 @@ var toggleModal = {
   }
 };
 
-//trigger buttons for black coffee
+// Trigger buttons for black coffee
 triggerBlack.addEventListener("click", toggleModal.black);
 closeBlack.addEventListener("click", toggleModal.black);
 
-//trigger buttons for espresso
+// Trigger buttons for espresso
 triggerEspresso.addEventListener("click", toggleModal.espresso);
 closeEspresso.addEventListener("click", toggleModal.espresso);
 
-//trigger buttons for double espresso
+// Trigger buttons for double espresso
 triggerDouble.addEventListener("click", toggleModal.double);
 closeDouble.addEventListener("click", toggleModal.double);
 
-//trigger buttons for cappuccino
+// Trigger buttons for cappuccino
 triggerCapp.addEventListener("click", toggleModal.capp);
 closeCapp.addEventListener("click", toggleModal.capp);
 
-//trigger buttons for latte
+// Trigger buttons for latte
 triggerLatte.addEventListener("click", toggleModal.latte);
 closeLatte.addEventListener("click", toggleModal.latte);
 
-//trigger buttons for mocha
+// Trigger buttons for mocha
 triggerMocha.addEventListener("click", toggleModal.mocha);
 closeMocha.addEventListener("click", toggleModal.mocha);
