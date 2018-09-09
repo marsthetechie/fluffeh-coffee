@@ -6,32 +6,10 @@ body {
   color: #fff;
 }
 
-p::selection {
-  background: #93663e;
-}
-
-h1::selection {
-  background: #93663e;
-}
-
 header {
   padding: 0.1em;
   background-color: #6F3D27;
   border-bottom: 1px solid #000;
-}
-
-#logo {
-  position: absolute;
-  margin: 2%;
-  width: 100px;
-  height: 100px;
-  -o-box-shadow: 8px 8px 25px #000;
-  -icab-box-shadow: 8px 8px 25px #000;
-  -khtml-box-shadow: 8px 8px 25px #000;
-  -moz-box-shadow: 8px 8px 25px #000;
-  -webkit-box-shadow: 8px 8px 25px #000;
-  box-shadow: 8px 8px 25px #000;
-  border-radius: 5%;
 }
 
 nav ul {
@@ -64,6 +42,16 @@ nav ul a:hover {
   background-color: #A0522D;
 }
 
+article {
+  text-align: justify;
+  padding: 10% 5%;
+}
+
+p::selection,
+h1::selection {
+  background: #93663e;
+}
+
 p,
 h1 {
   font-family: 'Comfortaa', cursive;
@@ -73,24 +61,6 @@ footer {
   background-color: #6F3D27;
   display: flex;
   padding: 5%;
-}
-
-#info {
-  flex-grow: 1;
-}
-
-#social {
-  flex-grow: 1;
-  text-align: center;
-}
-
-#social a {
-  display: inline-block;
-}
-
-#year {
-  flex-grow: 1;
-  text-align: right;
 }
 
 .button {
@@ -122,14 +92,22 @@ footer {
   color: #800000;
 }
 
+#logo {
+  position: absolute;
+  margin: 2%;
+  width: 100px;
+  height: 100px;
+  -o-box-shadow: 8px 8px 25px #000;
+  -icab-box-shadow: 8px 8px 25px #000;
+  -khtml-box-shadow: 8px 8px 25px #000;
+  -moz-box-shadow: 8px 8px 25px #000;
+  -webkit-box-shadow: 8px 8px 25px #000;
+  box-shadow: 8px 8px 25px #000;
+  border-radius: 5%;
+}
 
 #container {
   display: flex;
-}
-
-article {
-  text-align: justify;
-  padding: 10% 5%;
 }
 
 #team {
@@ -137,7 +115,6 @@ article {
   font-style: italic;
   float: right;
 }
-
 
 #kafaCont {
   height: inherit;
@@ -147,4 +124,22 @@ article {
 #kafica {
   height: 400px;
   width: 250px;
+}
+
+#info {
+  flex-grow: 1;
+}
+
+#social {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#social a {
+  display: inline-block;
+}
+
+#year {
+  flex-grow: 1;
+  text-align: right;
 }
